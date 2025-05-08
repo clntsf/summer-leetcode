@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/string-to-integer-atoi/description/
+// 8. String to Integer (atoi)
+// Difficulty: Medium
+
 class Solution {
     public int myAtoi(String s) {
         int l = s.length();
