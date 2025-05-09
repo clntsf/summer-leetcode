@@ -4,7 +4,7 @@
 
 class Solution {
 
-    /**
+    /*
      * Check if a tree is Univalued - i.e. every node has the same value.
      * Given a value we know is in the root node, we check each
      * non-null child for this value and process their subtree recursively

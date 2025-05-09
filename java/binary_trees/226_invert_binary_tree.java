@@ -4,7 +4,7 @@
 
 class Solution {
 
-    /**
+    /*
      * Invert a binary tree, switching each right node with a left node
      * and vice versa. We don't need a helper function here, as the main
      * function includes all the information we need to pass down as

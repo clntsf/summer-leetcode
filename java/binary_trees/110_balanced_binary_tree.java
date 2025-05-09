@@ -4,7 +4,7 @@
  
 class Solution {
 
-    /**
+    /*
      * Calculate the balance of a tree by evaluating the balance
      * of each node from the leaves upwards
      *   - When we reach a null node we return the depth
