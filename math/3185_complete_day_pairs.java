@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/count-pairs-that-form-a-complete-day-ii/description/   
+// 3185. Count Pairs That Form a Complete Day II
+// Difficulty: Medium
+
 /*
  * Our solution relies on the mathematical rule that
  * (a+b)%n is equal to a%n + b%n. As such, there are

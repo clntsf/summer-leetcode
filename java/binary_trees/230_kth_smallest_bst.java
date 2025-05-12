@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+// 230. Kth Smallest Element in a BST
+// Difficulty: Medium
+
 class Solution {
     int currK = 0;
 
