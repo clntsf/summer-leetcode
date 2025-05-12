@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description
+// 236. Lowest Common Ancestor of a Binary Tree
+// Difficulty: Medium
+
 /*
  * Explanation: Here the problem somewhat evades quick intuition, but:
  * We can solve the problem by modifying a post-order traversal to find the
