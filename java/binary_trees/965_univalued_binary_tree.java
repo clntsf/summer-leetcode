@@ -11,28 +11,17 @@ class Solution {
      * as well. 
      */
     public boolean isUnivalRecursive(TreeNode root, int val) {
-
-        // ignore null nodes
+        // Ignore null nodes
         if (root == null) return true;
 
-        // left node non-null logic
-        if (root.left != null) {
-            if (root.left.val != val ||                 // ensure value matches
-                !isUnivalRecursive(root.left, val)      // process left subtree
-            ) {
-                return false;
-            }
-        }
+        // Check root equality
+        if (root.val != val) return false;
 
-        // right node non-null logic
-        if (root.right != null) {
-            if (root.right.val != val ||                // ensure value matches
-                !isUnivalRecursive(root.right, val)     // process right subtree
-            ) {
-                return false;
-            }
-        }
-        return true;
+        // Check child univalue
+        return (
+            isUnivalRecursive(root.left, val) &&
+            isUnivalRecursive(root.right, val)
+        );
     }
 
     /*
